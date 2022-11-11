@@ -30,12 +30,21 @@ url: "https://www.alexdglover.com" # the base hostname & protocol for your site,
 
 # Build settings
 # theme: minima
-remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.3.3
 plugins:
   - jekyll-feed
 
 
 permalink: /:title
+
+
+# Footer content
+# appears at the bottom of every page's main content
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+footer_content: "Contribute to these recipes on <a href=\"https://github.com/alexdglover/recipes\">GitHub</a>"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
